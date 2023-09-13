@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "logforward",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Logforward Mod",
+  "description": "This mod forwards server logs to the babric terminal",
   "authors": [
-    "Turnip Labs"
+    "MilkFrog"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+      "milkfrog.logforward.LogForward"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+    "logforward.mixins.json"
   ],
 
   "depends": {
